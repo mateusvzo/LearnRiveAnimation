@@ -10,11 +10,7 @@ export default function App() {
   function changeAnimation(isTyping: boolean) {
     riveRef.current?.setInputState("State Machine 1", "Boolean 1", isTyping);
   }
-
-  function changeFocus(isTrue: boolean){
-    setIsFocused(isTrue)
-  }
-
+  
   return (
     <View style={styles.container}>
       <Rive
