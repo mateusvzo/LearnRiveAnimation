@@ -1,4 +1,4 @@
-package com.learnriveanimation
+package com.anonymous.LearnRiveAnimation
 
 import android.app.Application
 import android.content.res.Configuration
